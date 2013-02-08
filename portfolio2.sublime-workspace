@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"Target",
+				"CallTarget [Full]"
+			],
+			[
+				"Con",
+				"Condition"
+			],
+			[
+				"Sub",
+				"Sub2"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"navbar",
+				"navbar-jeans"
+			],
+			[
+				"nav",
+				"navbar-inner-extended"
+			],
+			[
+				"Cer",
+				"CertificateStore"
+			],
+			[
+				"norm",
+				"normal"
+			],
+			[
+				"Blinkbox",
+				"BlinkboxBranch"
+			],
+			[
+				"Copy",
+				"CopyBinaries"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 2602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/style.less",
+			"settings":
+			{
+				"buffer_size": 877,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tag ",
+				"Emmet: Remove Tag"
+			],
+			[
+				"tag remove",
+				"Tag: Remove Picked Tags in Document"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"uninsta",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"regex",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upperca",
+				"Convert Case: Upper Case"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascr",
+				"Format: Javascript"
+			],
+			[
+				"typescr",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"bootstra",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"tfs check",
+				"TFS: Checkout"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"bro",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"Add",
+				"Project: Add Folder"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslin",
+				"JSLint"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fomr",
+				"Format: Javascript"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"pre",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"syntx mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"makd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"cheat",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"tfs undo",
+				"TFS: Undo"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"Msbuil",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"pevi",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"msbui",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"tag fo",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"xml",
+				"Set Syntax: HTML"
+			],
+			[
+				"checkou",
+				"TFS: Checkout"
+			],
+			[
+				"ctag",
+				"CTags: Show Symbols (file)"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"bootstrap ",
+				"Snippet: Bootstrap hero example"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"jquer",
+				"Snippet: jQuery.ajax"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"snippet bootstrap hero",
+				"Snippet: Bootstrap hero example"
+			],
+			[
+				"snippet",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"boostra",
+				"Snippet: Bootstrap pagination"
+			],
+			[
+				"bootst",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"und",
+				"TFS: Undo"
+			],
+			[
+				"previ bro",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"previwe",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"tfs ",
+				"TFS: Checkout"
+			],
+			[
+				"tfs",
+				"TFS: Status"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packae ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"zen tag",
+				"Zen Coding: Select between tags"
+			],
+			[
+				"zen as you",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"snippe",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"zen",
+				"Set Syntax: ZenCoding"
+			],
+			[
+				"zen spli",
+				"Zen Coding: Split or join tag"
+			],
+			[
+				"zen merge",
+				"Zen Coding: Merge lines"
+			],
+			[
+				"dele",
+				"Zen Coding: Delete tag"
+			],
+			[
+				"wrpa",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"zen cod wra",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"base",
+				"Zen Coding: Endcode/decode base64"
+			],
+			[
+				"base6",
+				"Zen Coding: Endcode/decode base64"
+			],
+			[
+				"zen as",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"zena sy",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"zen as y",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"zne",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"zencod",
+				"Set Syntax: ZenCoding"
+			],
+			[
+				"MSBui",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"msbu",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"msbuil",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"Zenc",
+				"Set Syntax: ZenCoding"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"MSbui",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"Syntax xml",
+				"Set Syntax: XML"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"syntax xml",
+				"Set Syntax: XML"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"packae insta",
+				"Package Control: Install Package"
+			],
+			[
+				"nodejs",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"node",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Format: Javascript"
+			],
+			[
+				"Package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 418.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/Sources/portfolio2/public/css/style.css",
+		"/D/Dropbox/Sources/portfolio2/public/css/style.less",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Users/art/Documents/clubcards.txt",
+		"/Z/banking docs/artem_info.txt",
+		"/D/Dropbox/Sources/portfolio2/public/index.html",
+		"/D/Dropbox/Sources/portfolio/server.js",
+		"/D/Dropbox/Sources/portfolio/public/index.html",
+		"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/ATT00001.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Alf/src/BlinkBox.Client.TescoTV.Web/Content/Css/Shared/desktop.less",
+		"/C/Users/art/AppData/Roaming/npm-cache/typescript/0.8.2/package/bin/tsc.js",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Casper-M1305/src/BlinkBox.Client.TescoTV.Web/BlinkBox.Client.TescoTV.Web.csproj",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/src/BlinkBox.Client.TescoTV.Web/BlinkBox.Client.TescoTV.Web.csproj",
+		"/D/Dropbox/Sources/jsGame/server.js",
+		"/D/Dropbox/Sources/jsGame/gamestate.js",
+		"/D/Dropbox/Sources/jsGame/public/index.html",
+		"/D/Dropbox/Sources/jsGame/public/game.js",
+		"/D/Dropbox/Sources/jsGame/node_modules/memory-cache/index.js",
+		"/C/Users/art/Desktop/book/g-wells-nwo.htm",
+		"/C/Users/art/AppData/Local/Temp/1/Rar$DIa0.168/MB-OrnamentLines Readme.txt",
+		"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/priveledged js.txt",
+		"/H/other/cc.txt",
+		"/H/other/oyster.txt",
+		"/C/Users/art/Desktop/clubcards.txt",
+		"/C/Users/art/Desktop/priveledged.js",
+		"/C/Users/art/Desktop/priveledged.js.txt",
+		"/C/Users/art/Desktop/8-tileable-fabric-textures/readme.txt",
+		"/C/dev/Angelina/Main/Build/Configuration/SqlApplicationBrandConfiguration_ClubcardTV.template.sql",
+		"/C/Users/art/Desktop/index.html",
+		"/H/other/ebay.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Feature/Referencing-Treadstone-As-Nuget-Package/build/build.proj",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Feature/Referencing-Treadstone-As-Nuget-Package/build/Configuration/files.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/tfs.targets",
+		"//argento/FreeTimeBuildOutput/Daily - Clubcard TV_20121217.2/BuildLog.txt",
+		"/H/aws/aws.amazon.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Dropbox/Exchange/Germany X-mas.txt",
+		"/C/Users/art/Desktop/Proj/ConsoleApplication9/packages.config",
+		"/C/Users/art/AppData/Local/Temp/Rar$DIa0.508/TestTreadstoneCore.nuspec",
+		"/H/other/sanjiv_agarwal_letter.md",
+		"/C/Users/art/AppData/Local/Temp/Rar$DIa0.178/TestTreadstoneCore.nuspec",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Feature/Referencing-Treadstone-As-Nuget-Package/src/BlinkBox.Client.TescoTV.Services/packages.config",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Feature/Referencing-Treadstone-As-Nuget-Package/src/BlinkBox.Client.TescoTV.Web.Tests/packages.config",
+		"/C/Users/art/AppData/Local/Temp/Rar$DIa0.761/TestTreadstoneCore.nuspec",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Feature/Referencing-Treadstone-As-Nuget-Package/src/BlinkBox.Client.TescoTV.Web/packages.config",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/art/Desktop/давай по русски.txt",
+		"/C/Users/art/Desktop/bookmarks-2012-12-13.json",
+		"/C/Users/art/AppData/Local/Temp/Rar$DIa0.692/TestTreadstoneCore.nuspec",
+		"/C/Users/art/Desktop/plugin/plugin.js",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/JSLint/JSLint.sublime-build",
+		"/C/Users/art/Desktop/plugin.js",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/Nodejs.sublime-settings",
+		"/C/Users/art/Desktop/sql.js",
+		"/C/Users/art/Desktop/list.sql",
+		"/C/Users/art/Desktop/sql",
+		"/D/Dropbox/Exchange/uk pokupki.txt",
+		"/D/Dropbox/Exchange/список.txt",
+		"/D/Dropbox/Exchange/iz rigi.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/src/BlinkBox.Client.TescoTV.Web/Web.Config",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/iis.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/main.properties",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/Alf/src/BlinkBox.Client.TescoTV.Web/Web.Config",
+		"/C/Users/art/Google Drive/Exchange/WebTest/index.html",
+		"/C/Users/art/Desktop/.encfs/.encfs6.xml",
+		"/Z/bills/ealing_council.txt",
+		"/Z/housing/landlord-14beccleston.txt",
+		"/C/Users/art/Desktop/meetings.wiki",
+		"/C/Users/art/Desktop/meetings.md",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/DailyBuild.bat",
+		"/D/!/test.md",
+		"/D/!/test.wiki",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/sample.md",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/build.proj",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Release/Scripts/IISSetup.proj",
+		"/C/Users/art/Desktop/test.msbuild",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/request/forever.js",
+		"/C/Users/art/AppData/Roaming/npm/forever.cmd",
+		"/D/!/app.js",
+		"/D/!/app.j",
+		"/Z/aws/keypair/landlordfeedback.co.uk/passphrase.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/lib/Microsoft.Sdc.Tasks/Microsoft.Sdc.Common.tasks",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Release/Scripts/IISSetupPartner.bat",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Release/Scripts/Release.proj",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/Tasks.tasks",
+		"/C/dev/Angelina/Main/Build/blinkBox.Common.targets",
+		"/C/dev/Angelina/Main/Build/bin/Microsoft.Sdc.Common.tasks",
+		"/C/Users/art/Documents/GitHub/veridian/.gitignore",
+		"/C/Users/art/Documents/resharper license.txt",
+		"/C/Users/art/Desktop/New folder/file1.txt",
+		"/C/Users/art/Desktop/New folder/file1 - Copy.txt",
+		"/C/Users/art/Documents/clubcards list.txt",
+		"/C/Users/art/Desktop/keyfile",
+		"/C/Users/art/Desktop/comment.txt",
+		"/C/Users/art/Desktop/reset-3.bat",
+		"/D/!/app.cmd",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Preferences.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/zen-coding.sublime-settings",
+		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/Z/Sublime Text 2/Read Me.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/files.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Configuration/main.properties",
+		"/C/Users/art/Desktop/MainBuild.xml",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Configuration/Tasks.tasks",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Configuration/tfs.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Fail.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/build.proj",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/src/BlinkBox.Client.TescoTV.vssscc",
+		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/src/BlinkBox.Client.TescoTV.vssscc",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/GetLatestBinaries.bat",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/mstest.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/MainVersion.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/hosts.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/dns.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/deployment.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/assemblyversion.targets",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/webconfig.targets",
+		"/D/!/proj.test",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/build.targets",
+		"/C/Users/art/Desktop/some.js",
+		"/Z/thl w3/MT6575+USB+VCOM+drivers/Win7/usb2ser_Win764.inf",
+		"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/clubcards list.txt",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/deploy.proj"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blinkbox Core Rules.ruleset",
+			"new",
+			"players",
+			"<img",
+			"lloyds",
+			"#",
+			"');\n",
+			"console",
+			"log",
+			"AdministrationSiteUrl",
+			"conflict",
+			"CopyBinaries",
+			"packages",
+			"Test",
+			"bold_folder",
+			"NunjucksTemplate",
+			"tikva",
+			"truman",
+			"wakinglife",
+			"http:",
+			"http",
+			"UndoTfsCheckoutFiles",
+			"Checkin",
+			"UndoTfsCheckoutFiles",
+			"CleanUp",
+			"CheckCertificate",
+			"inverse",
+			"png",
+			"descriptio",
+			"AdditionalWebSiteHostName",
+			"/>\n",
+			"certifica",
+			"AdditionalServerBindings",
+			"CreateWebSite",
+			"container",
+			"ServerBindings",
+			"WebSite",
+			"UpdateServer",
+			"issecure",
+			"Site",
+			"ClubcardTV.Web",
+			"binding",
+			"theme",
+			"aa",
+			"zen_as_you_type",
+			"BlinkboxBranch",
+			"BlinkboxDropFolder",
+			"LatestFolderPath",
+			"checkinfile",
+			"Microsoft",
+			"TfsCheckInFiles",
+			"BuildSolutions",
+			"TfsCheckInFiles",
+			"GetLatestBinaries",
+			"CopyBinaries",
+			"CheckoutFile",
+			"TfsCheckoutFile",
+			"IncrementVersionNumber",
+			"CopyLibraries",
+			"Include",
+			"BbCoreLibPath",
+			"Checkin",
+			"Undo",
+			"TfsCheckoutFiles",
+			"getlatestBinaries",
+			"GetLatestBinaries",
+			"Condition",
+			"TfsCheckoutFiles",
+			"GetLatestBinaries",
+			"aaa",
+			"634002400022336966",
+			"something",
+			"aaa",
+			"Build;",
+			"BuildSolutions",
+			"CreateEnvironmentConfigs",
+			"ItemGroup",
+			"WebConfigSourceName",
+			"GenerateConfig",
+			"sa",
+			"Connect()",
+			"DnsAddress"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"https:",
+			"https"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"settings":
+					{
+						"buffer_size": 2602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1073
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/css/style.less",
+					"settings":
+					{
+						"buffer_size": 877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 316.0
+	},
+	"output.git":
+	{
+		"height": 198.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 300.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tfs",
+				"Configuration/tfs.targets"
+			],
+			[
+				"iis",
+				"Configuration/iis.targets"
+			],
+			[
+				"build.pro",
+				"build.proj"
+			],
+			[
+				"properties",
+				"Configuration/main.properties"
+			],
+			[
+				"propert",
+				"Configuration/main.properties"
+			],
+			[
+				"tasks",
+				"Configuration/Tasks.tasks"
+			],
+			[
+				"iis.ta",
+				"Configuration/iis.targets"
+			],
+			[
+				"iisset",
+				"Release/Scripts/IISSetup.proj"
+			],
+			[
+				"club",
+				"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/clubcards list.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700|Junge);
+/*header*/
+header {
+  background-image: url(../img/head-back.png);
+  background-repeat: repeat;
+  min-height: 219px;
+  overflow: auto;
+  /*http://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down*/
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  /*-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);*/
+
+}
+header h1 {
+  font-family: 'Cuprum Bold', sans-serif;
+  font-size: 98px;
+  color: #fff;
+  padding: 55px 0 0 0;
+  text-shadow: 4px 4px 4px #1b284d;
+  filter: dropshadow(color=#1b284d, offx=4, offy=4);
+}
+header p.banner {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin: 28px 0 0 208px;
+  padding: 5px 0 0 8px;
+  color: #d5c15c;
+  width: 242px;
+  height: 35px;
+  background-image: url(../img/banner-top.png);
+  background-repeat: no-repeat;
+  text-shadow: -1px -1px 1px #675308;
+  filter: dropshadow(color=#675308, offx=-1, offy=-1);
+}
+header ul.social {
+  padding: 46px 0 0 2px;
+}
+header ul.social li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 4px 0 0;
+  float: left;
+}
+header ul.social li a {
+  display: block;
+  width: 39px;
+  height: 39px;
+  background-image: url(../img/social.png);
+}
+header ul.social li a.linkedin {
+  background-position: 0px 0px;
+}
+header ul.social li a.facebook {
+  background-position: -44px 0px;
+}
+header ul.social li a.twitter {
+  background-position: -88px 0px;
+}
+header ul.social li a.github {
+  background-position: -133px 0px;
+}
+/*body*/
+body {
+  font-family: 'Junge', serif;
+  font-size: 12px;
+  background-image: url(../img/body-back.png);
+}
+/*footers*/

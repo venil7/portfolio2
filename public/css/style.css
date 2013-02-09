@@ -62,7 +62,50 @@ header ul.social li a.github {
 /*body*/
 body {
   font-family: 'Junge', serif;
-  font-size: 12px;
+  font-size: 18px;
   background-image: url(../img/body-back.png);
+}
+body h2 {
+  font-family: 'Cuprum Bold', sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0px #fff;
+  filter: dropshadow(color=#ffffff, offx=2, offy=2);
+  padding: 38px 0 38px 0;
+}
+body h2:before,
+body h2:after {
+  content: "~";
+}
+body div.skill {
+  background-color: #fff;
+  display: block;
+  width: 236px;
+  height: 206px;
+  -webkit-box-shadow: 1px 1px 1px 0px #000000;
+  box-shadow: 1px 1px 1px 0px #000000;
+  padding: 22px;
+  overflow: hidden;
+}
+body div.skill h3 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #5b5741;
+  filter: dropshadow(color=#5b5741, offx=1, offy=1);
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+body div.skill p {
+  margin-top: 4px;
+}
+body div.dark {
+  background-image: url(../img/dark-back.jpg);
+  background-repeat: repeat;
+  margin-top: 100px;
+}
+body div.dark h2 {
+  color: #dbdbdb;
 }
 /*footers*/

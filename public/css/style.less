@@ -59,8 +59,55 @@ header {
 /*body*/
 body{
   font-family: 'Junge', serif;
-  font-size: 12px;
+  font-size: 18px;
   background-image: url(../img/body-back.png);
+
+  h2 {
+    font-family: 'Cuprum Bold', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #fff;
+    filter: dropshadow(color=#fff, offx=2, offy=2);
+    padding:38px 0 38px 0;
+  }
+
+  h2:before, h2:after {
+    content:"~";
+  }
+
+  div.skill{
+    background-color: #fff;
+    display: block;
+    width :236px; 
+    height: 206px; 
+    -webkit-box-shadow:  1px 1px 1px 0px rgba(0, 0, 0, 1);
+    box-shadow:  1px 1px 1px 0px rgba(0, 0, 0, 1);
+    padding: 22px;
+    overflow: hidden;
+
+    h3 {
+      font-family: 'Cuprum', sans-serif;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #5b5741;
+      filter: dropshadow(color=#5b5741, offx=1, offy=1);
+      margin:0px;
+      padding:0px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+    p {
+      margin-top: 4px;
+    }
+  }
+
+  div.dark {
+    background-image: url(../img/dark-back.jpg);
+    background-repeat: repeat;
+    margin-top:100px;
+    h2 {
+      color:#dbdbdb;
+    }
+  }
 }   
 
 /*footers*/

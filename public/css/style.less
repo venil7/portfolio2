@@ -1,74 +1,78 @@
-@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700|Junge);
-
-/*header*/
-header {
-
-  background-image: url(../img/head-back.png);
-  background-repeat: repeat;
-  min-height: 219px;
-  overflow:auto; /*http://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down*/
-  box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);
-  /*-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);*/
-  
-  h1 {
-    font-family: 'Cuprum Bold', sans-serif;
-    font-size: 98px;
-    color:#fff;
-    padding: 55px 0 0 0;
-    text-shadow: 4px 4px 4px #1b284d;
-    filter: dropshadow(color=#1b284d, offx=4, offy=4);  
-  }
-
-  p.banner {
-    font-size: 20px;
-    letter-spacing:1.5px;
-    margin: 28px 0 0 208px;
-    padding: 5px 0 0 8px;
-    color :#d5c15c;
-    width: 242px;
-    height:35px;
-    background-image: url(../img/banner-top.png);
-    background-repeat: no-repeat;
-    text-shadow: -1px -1px 1px #675308;
-    filter: dropshadow(color=#675308, offx=-1, offy=-1);
-  }
-  
-  ul.social {
-    padding:46px 0 0 2px;
-    li {
-      display: inline;
-      list-style-type: none;
-      padding: 0 4px 0 0;
-      float: left;
-      
-      a {
-        display: block;
-        width: 39px;
-        height: 39px;
-        background-image: url(../img/social.png);
-      }
-      a.linkedin {background-position: 0px 0px;}
-      a.facebook {background-position: -44px 0px;}
-      a.twitter {background-position: -88px 0px;}
-      a.github {background-position: -133px 0px;}
-    }
-  }
-}
-
+@import url(//fonts.googleapis.com/css?family=Cuprum:400,700|Junge);
 
 /*body*/
 body{
   font-family: 'Junge', serif;
   font-size: 18px;
   background-image: url(../img/body-back.png);
+  letter-spacing: 1px;
+  /*header*/
+  header {
+    background-image: url(../img/head-back.png);
+    background-repeat: repeat;
+    min-height: 219px;
+    overflow:auto; /*http://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down*/
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);
+    -webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);
+  
+    h1 {
+      font-family: Cuprum, 'Cuprum Bold', sans-serif;
+      font-weight: 700;
+      font-size: 98px;
+      color:#fff;
+      padding: 55px 0 0 0;
+      text-shadow: 4px 4px 4px #1b284d;
+      filter: dropshadow(color=#1b284d, offx=4, offy=4);  
+    }
 
+    p.banner {
+      font-size: 20px;
+      letter-spacing:1.5px;
+      margin: 28px 0 0 208px;
+      padding: 5px 0 0 8px;
+      color :#d5c15c;
+      width: 242px;
+      height:35px;
+      background-image: url(../img/banner-top.png);
+      background-repeat: no-repeat;
+      text-shadow: -1px -1px 1px #675308;
+      filter: dropshadow(color=#675308, offx=-1, offy=-1);
+    }
+  
+    ul.social {
+      padding:46px 0 0 2px;
+      li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 4px 0 0;
+        float: left;
+        
+        a {
+          display: block;
+          width: 39px;
+          height: 39px;
+          background-image: url(../img/social.png);
+        }
+        a.linkedin {background-position: 0px 0px;}
+        a.facebook {background-position: -44px 0px;}
+        a.twitter {background-position: -88px 0px;}
+        a.github {background-position: -133px 0px;}
+      }
+    }
+  }
+
+  /*mid section*/
+  section {
+    margin: 50px 0 50px 0;
+  }
   h2 {
-    font-family: 'Cuprum Bold', sans-serif;
+    font-family: Cuprum, 'Cuprum Bold', sans-serif;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 2px;
     text-shadow: 2px 2px 0px #fff;
     filter: dropshadow(color=#fff, offx=2, offy=2);
-    padding:38px 0 38px 0;
+    padding: 0 0 20px 0;
   }
 
   h2:before, h2:after {
@@ -100,12 +104,27 @@ body{
     }
   }
 
+  /*mid section-dark*/
   div.dark {
     background-image: url(../img/dark-back.jpg);
     background-repeat: repeat;
-    margin-top:100px;
+    i.zipper-top {
+      display:block;
+      width:100%;
+      height: 12px;
+      background-image: url(../img/zigzag-top.png);
+      background-repeat: repeat-x;
+    }
+    i.zipper-bottom {
+      display:block;
+      width:100%;
+      height: 12px;
+      background-image: url(../img/zigzag-bottom.png);
+      background-repeat: repeat-x;
+    }
     h2 {
       color:#dbdbdb;
+      padding:20px 0 20px 0;
     }
     div.project {
       display: block;
@@ -116,6 +135,69 @@ body{
       margin-bottom: 47px;
     }
   }
-}   
 
-/*footers*/
+  /*footer*/
+  footer {
+    height: 358px;
+    background-color: rgba(0,0,0,.75);
+    color:#fff;
+    div.shift {
+      padding-left: 100px;
+    }
+    h3 {
+      font-family: Cuprum, 'Cuprum Bold', sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      color:#dbdbdb;
+      text-shadow: 2px 2px 0px #fff;
+      filter: dropshadow(color=#fff, offx=2, offy=2);
+      text-transform:uppercase;
+      letter-spacing: 1px;
+      margin-top:26px;
+    }
+    ul.social {
+      margin:0px;
+      li {
+        list-style-type: none;
+      }
+    }
+    a,a:hover,a:target {
+      text-decoration: none;
+      color: #fff;
+    }
+    i.social-icon {
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      margin-top: 1px;
+      line-height: 19px;
+      vertical-align: text-top;
+      background-image: url("../img/social-footer.png");
+      background-repeat: no-repeat;
+      &.facebook {
+        background-position: 0px 0px;
+      }
+      &.twitter {
+        background-position: -20px 0px;
+      }
+      &.github {
+        background-position: -40px 0px;
+      }
+      &.linkedin {
+        background-position: -61px 0px;
+      }
+    }
+    div.relative{
+      position:relative;
+      div.quality {
+        position:absolute;
+        top: -2px;
+        left: 185px;
+        display:block;
+        width:37px;
+        height:84px;
+        background-image: url(../img/quality.png);
+      }
+    }
+  }
+}

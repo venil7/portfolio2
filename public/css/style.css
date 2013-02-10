@@ -1,6 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700|Junge);
-/*header*/
-header {
+@import url(//fonts.googleapis.com/css?family=Cuprum:400,700|Junge);
+/*body*/
+body {
+  font-family: 'Junge', serif;
+  font-size: 18px;
+  background-image: url(../img/body-back.png);
+  letter-spacing: 1px;
+  /*header*/
+
+  /*mid section*/
+
+  /*mid section-dark*/
+
+  /*footer*/
+
+}
+body header {
   background-image: url(../img/head-back.png);
   background-repeat: repeat;
   min-height: 219px;
@@ -8,18 +22,18 @@ header {
   /*http://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down*/
 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
-  /*-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .75);*/
-
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
 }
-header h1 {
-  font-family: 'Cuprum Bold', sans-serif;
+body header h1 {
+  font-family: Cuprum, 'Cuprum Bold', sans-serif;
+  font-weight: 700;
   font-size: 98px;
   color: #fff;
   padding: 55px 0 0 0;
   text-shadow: 4px 4px 4px #1b284d;
   filter: dropshadow(color=#1b284d, offx=4, offy=4);
 }
-header p.banner {
+body header p.banner {
   font-size: 20px;
   letter-spacing: 1.5px;
   margin: 28px 0 0 208px;
@@ -32,46 +46,44 @@ header p.banner {
   text-shadow: -1px -1px 1px #675308;
   filter: dropshadow(color=#675308, offx=-1, offy=-1);
 }
-header ul.social {
+body header ul.social {
   padding: 46px 0 0 2px;
 }
-header ul.social li {
+body header ul.social li {
   display: inline;
   list-style-type: none;
   padding: 0 4px 0 0;
   float: left;
 }
-header ul.social li a {
+body header ul.social li a {
   display: block;
   width: 39px;
   height: 39px;
   background-image: url(../img/social.png);
 }
-header ul.social li a.linkedin {
+body header ul.social li a.linkedin {
   background-position: 0px 0px;
 }
-header ul.social li a.facebook {
+body header ul.social li a.facebook {
   background-position: -44px 0px;
 }
-header ul.social li a.twitter {
+body header ul.social li a.twitter {
   background-position: -88px 0px;
 }
-header ul.social li a.github {
+body header ul.social li a.github {
   background-position: -133px 0px;
 }
-/*body*/
-body {
-  font-family: 'Junge', serif;
-  font-size: 18px;
-  background-image: url(../img/body-back.png);
+body section {
+  margin: 50px 0 50px 0;
 }
 body h2 {
-  font-family: 'Cuprum Bold', sans-serif;
+  font-family: Cuprum, 'Cuprum Bold', sans-serif;
+  font-weight: 700;
   font-size: 36px;
   letter-spacing: 2px;
   text-shadow: 2px 2px 0px #fff;
   filter: dropshadow(color=#ffffff, offx=2, offy=2);
-  padding: 38px 0 38px 0;
+  padding: 0 0 20px 0;
 }
 body h2:before,
 body h2:after {
@@ -103,10 +115,24 @@ body div.skill p {
 body div.dark {
   background-image: url(../img/dark-back.jpg);
   background-repeat: repeat;
-  margin-top: 100px;
+}
+body div.dark i.zipper-top {
+  display: block;
+  width: 100%;
+  height: 12px;
+  background-image: url(../img/zigzag-top.png);
+  background-repeat: repeat-x;
+}
+body div.dark i.zipper-bottom {
+  display: block;
+  width: 100%;
+  height: 12px;
+  background-image: url(../img/zigzag-bottom.png);
+  background-repeat: repeat-x;
 }
 body div.dark h2 {
   color: #dbdbdb;
+  padding: 20px 0 20px 0;
 }
 body div.dark div.project {
   display: block;
@@ -116,4 +142,68 @@ body div.dark div.project {
   padding: 10px;
   margin-bottom: 47px;
 }
-/*footers*/
+body footer {
+  height: 358px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+body footer div.shift {
+  padding-left: 100px;
+}
+body footer h3 {
+  font-family: Cuprum, 'Cuprum Bold', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #dbdbdb;
+  text-shadow: 2px 2px 0px #fff;
+  filter: dropshadow(color=#ffffff, offx=2, offy=2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 26px;
+}
+body footer ul.social {
+  margin: 0px;
+}
+body footer ul.social li {
+  list-style-type: none;
+}
+body footer a,
+body footer a:hover,
+body footer a:target {
+  text-decoration: none;
+  color: #fff;
+}
+body footer i.social-icon {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-top: 1px;
+  line-height: 19px;
+  vertical-align: text-top;
+  background-image: url("../img/social-footer.png");
+  background-repeat: no-repeat;
+}
+body footer i.social-icon.facebook {
+  background-position: 0px 0px;
+}
+body footer i.social-icon.twitter {
+  background-position: -20px 0px;
+}
+body footer i.social-icon.github {
+  background-position: -40px 0px;
+}
+body footer i.social-icon.linkedin {
+  background-position: -61px 0px;
+}
+body footer div.relative {
+  position: relative;
+}
+body footer div.relative div.quality {
+  position: absolute;
+  top: -2px;
+  left: 185px;
+  display: block;
+  width: 37px;
+  height: 84px;
+  background-image: url(../img/quality.png);
+}

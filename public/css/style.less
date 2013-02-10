@@ -6,6 +6,7 @@ body{
   font-size: 18px;
   background-image: url(../img/body-back.png);
   letter-spacing: 1px;
+
   /*header*/
   header {
     background-image: url(../img/head-back.png);
@@ -20,7 +21,9 @@ body{
       font-weight: 700;
       font-size: 98px;
       color:#fff;
-      padding: 55px 0 0 0;
+      padding: 45px 0 0 0;
+      margin:0;
+      line-height: 80px;
       text-shadow: 4px 4px 4px #1b284d;
       filter: dropshadow(color=#1b284d, offx=4, offy=4);  
     }
@@ -28,7 +31,7 @@ body{
     p.banner {
       font-size: 20px;
       letter-spacing:1.5px;
-      margin: 28px 0 0 208px;
+      margin: 8px 0 0 210px;
       padding: 5px 0 0 8px;
       color :#d5c15c;
       width: 242px;
@@ -61,10 +64,11 @@ body{
     }
   }
 
-  /*mid section*/
+  /*mid section - common*/
   section {
     margin: 50px 0 50px 0;
   }
+
   h2 {
     font-family: Cuprum, 'Cuprum Bold', sans-serif;
     font-weight: 700;
@@ -79,6 +83,7 @@ body{
     content:"~";
   }
 
+  /*skill section*/
   div.skill{
     background-color: #fff;
     display: block;
@@ -104,10 +109,11 @@ body{
     }
   }
 
-  /*mid section-dark*/
+  /*project section*/
   div.dark {
     background-image: url(../img/dark-back.jpg);
     background-repeat: repeat;
+
     i.zipper-top {
       display:block;
       width:100%;
@@ -115,6 +121,7 @@ body{
       background-image: url(../img/zigzag-top.png);
       background-repeat: repeat-x;
     }
+
     i.zipper-bottom {
       display:block;
       width:100%;
@@ -122,10 +129,12 @@ body{
       background-image: url(../img/zigzag-bottom.png);
       background-repeat: repeat-x;
     }
+
     h2 {
       color:#dbdbdb;
       padding:20px 0 20px 0;
     }
+
     div.project {
       display: block;
       width: 180px;
@@ -141,9 +150,11 @@ body{
     height: 358px;
     background-color: rgba(0,0,0,.75);
     color:#fff;
+
     div.shift {
       padding-left: 100px;
     }
+
     h3 {
       font-family: Cuprum, 'Cuprum Bold', sans-serif;
       font-weight: 700;
@@ -155,16 +166,20 @@ body{
       letter-spacing: 1px;
       margin-top:26px;
     }
+
     ul.social {
       margin:0px;
+
       li {
         list-style-type: none;
       }
     }
+
     a,a:hover,a:target {
       text-decoration: none;
       color: #fff;
     }
+
     i.social-icon {
       display: inline-block;
       width: 19px;
@@ -174,21 +189,27 @@ body{
       vertical-align: text-top;
       background-image: url("../img/social-footer.png");
       background-repeat: no-repeat;
+
       &.facebook {
         background-position: 0px 0px;
       }
+
       &.twitter {
         background-position: -20px 0px;
       }
+
       &.github {
         background-position: -40px 0px;
       }
+
       &.linkedin {
         background-position: -61px 0px;
       }
     }
+
     div.relative{
       position:relative;
+
       div.quality {
         position:absolute;
         top: -2px;

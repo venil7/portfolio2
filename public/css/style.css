@@ -7,9 +7,11 @@ body {
   letter-spacing: 1px;
   /*header*/
 
-  /*mid section*/
+  /*mid section - common*/
 
-  /*mid section-dark*/
+  /*skill section*/
+
+  /*project section*/
 
   /*footer*/
 
@@ -29,14 +31,16 @@ body header h1 {
   font-weight: 700;
   font-size: 98px;
   color: #fff;
-  padding: 55px 0 0 0;
+  padding: 45px 0 0 0;
+  margin: 0;
+  line-height: 80px;
   text-shadow: 4px 4px 4px #1b284d;
   filter: dropshadow(color=#1b284d, offx=4, offy=4);
 }
 body header p.banner {
   font-size: 20px;
   letter-spacing: 1.5px;
-  margin: 28px 0 0 208px;
+  margin: 8px 0 0 210px;
   padding: 5px 0 0 8px;
   color: #d5c15c;
   width: 242px;

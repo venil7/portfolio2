@@ -56,18 +56,18 @@
 	"buffers":
 	[
 		{
-			"file": "public/index.html",
+			"file": "/C/Users/art/Documents/clubcards.txt",
 			"settings":
 			{
-				"buffer_size": 2602,
-				"line_ending": "Unix"
+				"buffer_size": 12497,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/css/style.less",
+			"file": "/C/Windows/System32/drivers/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 877,
+				"buffer_size": 2185,
 				"line_ending": "Windows"
 			}
 		}
@@ -75,9 +75,13 @@
 	"build_system": "Packages/Nodejs/Nodejs.sublime-build",
 	"command_palette":
 	{
-		"height": 93.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"tfs",
+				"TFS: Checkout"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -335,10 +339,6 @@
 				"TFS: Checkout"
 			],
 			[
-				"tfs",
-				"TFS: Status"
-			],
-			[
 				"install pa",
 				"Package Control: Install Package"
 			],
@@ -524,13 +524,17 @@
 	},
 	"file_history":
 	[
-		"/D/Dropbox/Sources/portfolio2/public/css/style.css",
+		"/D/!/test/desckit/app.js",
+		"/D/Dropbox/Sources/portfolio2/public/index.html",
 		"/D/Dropbox/Sources/portfolio2/public/css/style.less",
+		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/files.targets",
+		"/C/Users/art/Documents/clubcards.txt",
+		"/H/other/easybus.txt",
+		"/H/other/wizzair.txt",
+		"/D/Dropbox/Sources/portfolio2/public/css/style.css",
 		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/less2css.sublime-settings",
 		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
-		"/C/Users/art/Documents/clubcards.txt",
 		"/Z/banking docs/artem_info.txt",
-		"/D/Dropbox/Sources/portfolio2/public/index.html",
 		"/D/Dropbox/Sources/portfolio/server.js",
 		"/D/Dropbox/Sources/portfolio/public/index.html",
 		"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/ATT00001.txt",
@@ -629,7 +633,6 @@
 		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/User/zen-coding.sublime-settings",
 		"/C/Users/art/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
 		"/Z/Sublime Text 2/Read Me.txt",
-		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/files.targets",
 		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Configuration/main.properties",
 		"/C/Users/art/Desktop/MainBuild.xml",
 		"/C/dev/Angelina/Client/PC/TescoTV/Branches/TestRelease/build/Configuration/Tasks.tasks",
@@ -648,10 +651,7 @@
 		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/webconfig.targets",
 		"/D/!/proj.test",
 		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/Configuration/build.targets",
-		"/C/Users/art/Desktop/some.js",
-		"/Z/thl w3/MT6575+USB+VCOM+drivers/Win7/usb2ser_Win764.inf",
-		"/C/Users/art/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/Y52S4GH8/clubcards list.txt",
-		"/C/dev/Angelina/Client/PC/TescoTV/Trunk/build/deploy.proj"
+		"/C/Users/art/Desktop/some.js"
 	],
 	"find":
 	{
@@ -671,6 +671,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"trumanshow",
 			"blinkbox Core Rules.ruleset",
 			"new",
 			"players",
@@ -778,26 +779,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "public/index.html",
+					"file": "/C/Users/art/Documents/clubcards.txt",
 					"settings":
 					{
-						"buffer_size": 2602,
+						"buffer_size": 12497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1073,
-								1073
+								582,
+								600
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -807,26 +806,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "public/css/style.less",
+					"file": "/C/Windows/System32/drivers/etc/hosts",
 					"settings":
 					{
-						"buffer_size": 877,
+						"buffer_size": 2185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								533
+								2123,
+								2123
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

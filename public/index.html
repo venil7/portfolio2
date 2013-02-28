@@ -54,7 +54,7 @@
       <section class="skills">
         <h2>Skills & Experience</h2>
         <div class="row">
-          <div class="span4">
+          <div class="span4 relative-container">
             <div class="skill">
               <h3>.NET, C#, ASP.NET</h3>
               <p>
@@ -65,23 +65,39 @@
               </p>
               <div class="fadeout"></div>
             </div>
+            <div class="skill-expanded">
+            </div>
           </div>
-          <div class="span4">
+          <div class="span4 relative-container">
             <div class="skill">
               <h3>Agile, Scrum</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quibusdam eaque esse eius cum velit quasi reprehenderit officia aliquid explicabo.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div class="fadeout"></div>
             </div>
+            <div class="skill-expanded">
+            </div>
           </div>
-          <div class="span4">
+          <div class="span4 relative-container">
             <div class="skill">
               <h3>Rails, Node.js</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quibusdam eaque esse eius cum velit quasi reprehenderit officia aliquid explicabo.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div class="fadeout"></div>
+            </div>
+            <div class="skill-expanded">
             </div>
           </div>
         </div>
@@ -210,6 +226,7 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript">
       $(function () {
+        // header section
         var $banner = $('.banner').hide();
         setTimeout(function(){
           $banner
@@ -223,6 +240,16 @@
             });
           }, 1000 /*1000msec to let init animation finish*/);
         }, 500 /*500msec before init animation*/);
+
+        // skill section
+        $('.relative-container').each(function() {
+          var $skillClone = $(this).children('.skill').clone();
+          $skillClone.find('.fadeout').remove();
+          $skillClone.appendTo($(this).find('.skill-expanded'));
+        }).hover(function() {
+          $(this).children('.skill,.skill-expanded').toggle();
+        });
+        
       });
     </script>
 </body>
